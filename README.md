@@ -9,7 +9,7 @@ This plugin uses [IPC](https://en.wikipedia.org/wiki/Inter-process_communication
 # Features
 
 * Accurate anti-wallhack (tackles small holes, secondary visibility and much more: see [here](https://honestgaming.io/sauray.html) for more details).
-* Adaptive support for ultra-high-latency (under improvement)
+* Ultra-high-latency support via specialized lookaheads
 * Anti-anti-flash support
 * Smoke support
 * Sound origin (footsteps, gunfire) randomization
@@ -21,7 +21,6 @@ This plugin uses [IPC](https://en.wikipedia.org/wiki/Inter-process_communication
 
 * Support for entities affecting visibility (i.e. doors)
 * Linux support
-* Better fallback than PVS for ultra-high-latency scenarios (currently under implementation)
 * [traceroute](https://en.wikipedia.org/wiki/Traceroute) support for detecting artificially-high-latency players.
 
 # Compilation procedure (Windows)
